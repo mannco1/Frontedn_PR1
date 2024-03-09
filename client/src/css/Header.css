@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: "Inter", sans-serif;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: #00ff9b;
+  font-family: "Segoe UI Semibold", sans-serif;
+  font-size: min(max(20px, 5vw), 28px);
+  margin-left: 1.9vw;
+  text-decoration: none;
+}
+.btn_one, .btn_two{
+  padding: 7px 5px;
+  border-radius: 20px;
+  background-color: #d30202;
+}
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
+  background-color: #FFFFFF;
+  margin-right: 0.5vw;
+  padding: 2px;
+}
+
+.createPost{
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #24ff53;
+  font-size: 16px;
+  cursor: pointer;
+}
+.createPost:hover{
+  background-color: #56ff7a;
+}
+.createPost:active{
+  background-color: #00a824;
+}
+
+.active{
+  text-decoration: none;
+}
+header a{
+  text-decoration: none;
+}
+
+
+
+.pic {
+  background-image: url('https://i.ibb.co/dp8ZPVD/free-icon-write-4619349-1.png');
+  width: 30px;
+  height: 30px;
+  background-position: left;
+}

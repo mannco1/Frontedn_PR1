@@ -1,0 +1,146 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 79.4vh;
+  justify-content: center;
+  background-color: #e2e4f8;
+  font-family: "Inter", sans-serif;
+}
+.formTitle{
+  align-self: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.formFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+}
+.emailEnter, .passwordEnter{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.email, .password{
+  margin-bottom: 10px;
+}
+
+.emailField, .passwordField{
+  border-radius: 10px;
+  padding: 6px;
+  border: none;
+  width: 40vw;
+  min-width: 100%;
+}
+.submit{
+  padding: 17px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  background-color: #2C64F5;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.submit:hover{
+  background-color: #6a8fee;
+}
+.submit:active{
+  background-color: #003ad2;
+}
+.buttonEnter{
+  display: flex;
+  flex-direction: column;
+}
+.isRegisterButton{
+  padding: 5px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: #2C64F5;
+}
+.isRegisterButton:hover{
+  background-color: #6a8fee;
+}
+
+.successMessage {
+  background-color: #4caf50; /* Цвет фона */
+  color: white; /* Цвет текста */
+  padding: 15px; /* Внутренний отступ */
+  margin-top: 10px; /* Внешний отступ сверху */
+  border-radius: 5px; /* Скругление углов */
+  display: inline-block; /* Отображать в строчку, чтобы занимать только нужное пространство */
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 79.4vh;
+  justify-content: center;
+  background-color: #e2e4f8;
+  font-family: "Inter", sans-serif;
+
+}
+.formTitle{
+  align-self: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.formFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  margin-bottom: 15px;
+}
+.emailEnter, .passwordEnter{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.email, .password{
+  margin-bottom: 10px;
+}
+
+.emailField, .passwordField{
+  border-radius: 10px;
+  padding: 6px;
+  border: none;
+  width: 40vw;
+  min-width: 100%;
+}
+.submit{
+  padding: 17px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  background-color: #2C64F5;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.submit:hover{
+  background-color: #6a8fee;
+}
+.submit:active{
+  background-color: #003ad2;
+}
+.buttonEnter{
+  display: flex;
+  flex-direction: column;
+}
+.isRegister{
+  text-align: center;
+}
+.isRegisterButton{
+  padding: 5px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: #2C64F5;
+}
+.isRegisterButton:hover{
+  background-color: #6a8fee;
+}

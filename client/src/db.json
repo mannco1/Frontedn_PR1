@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": "d07b",
+      "title": "",
+      "image": "",
+      "content": ""
+    },
+    {
+      "id": "dc35",
+      "title": "dddd",
+      "image": "",
+      "content": "ddddd"
+    },
+    {
+      "id": "4b5f",
+      "title": "",
+      "image": "",
+      "content": ""
+    },
+    {
+      "id": "a1dc",
+      "title": "dsds",
+      "image": "",
+      "content": "dsd"
+    }
+  ],
+  "users": [
+    {
+      "id": "102f",
+      "email": "test@mail.ru",
+      "password": "12345678"
+    },
+    {
+      "id": "8378",
+      "email": "fff@mail.ru",
+      "password": "21314141414"
+    },
+    {
+      "id": "88e4",
+      "email": "f.@mail.ru",
+      "password": "Dddddddddddddddddddddd"
+    }
+  ]
+}

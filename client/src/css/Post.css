@@ -1,0 +1,63 @@
+.container1{
+    font-family: "Inter", sans-serif;
+  }
+  .flex__l{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    align-items: flex-start;
+    border: 1px black solid;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 9px;
+  }
+  .confirm{
+    border: none;
+    font-size: 19px;
+    border-radius: 16px;
+    padding: 6px;
+    background-color: #2C64F5;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .confirm:hover{
+    background-color: #8caafc;
+  }
+  .confirm:active{
+    background-color: #0532a6;
+  }
+  .flex__post{
+    margin-top: 40px;
+  }
+  .flex__post p{
+    margin: 15px;
+  }
+  .btnEdit, .btnDelete{
+    margin: 5px;
+    border: none;
+    font-size: 19px;
+    border-radius: 16px;
+    padding: 9px;
+    cursor: pointer;
+  }
+  .btnEdit{
+    background-color: #2C64F5;
+  }
+  .btnEdit:hover{
+     background-color: #8caafc;
+   }
+  .btnEdit:active{
+    background-color: #0532a6;
+  }
+  .btnDelete{
+    background-color: #f52c2c;
+  }
+  .btnDelete:hover{
+    background-color: #ff8585;
+  }
+  .btnDelete:active{
+    background-color: #cb0000;
+  }
+  
